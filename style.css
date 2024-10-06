@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 0vw 9vw;
+  /* background-color: pink; */
+}
+
+header {
+  height: 13vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: fixed; */
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  cursor: default;
+}
+
+#logo h1 {
+  font-family: sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.771);
+}
+
+a:hover {
+  color: #3874fa;
+  transition: all 0.2s ease-in;
+}
+
+.login-btn,
+.start-btn {
+  padding: 0.5vw 2vw;
+  outline: none;
+  border: none;
+  color: #eee;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  background-color: #6366f1;
+}
+.start-btn:hover {
+  transition: all 0.2s ease-in;
+  border: 1px solid #3874fa;
+  background-color: transparent;
+  color: #6366f1;
+}
+
+.hero {
+  height: calc(100vh - 13vh);
+  display: flex;
+  /* background-color: pink; */
+}
+
+.leftdata {
+  width: 55%;
+  height: 100%;
+  padding-top: 14vh;
+}
+
+.leftdata h3 {
+  color: #6366f1;
+  margin-bottom: 2vh;
+}
+.leftdata h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.leftdata h1:nth-child(2) {
+  letter-spacing: 0.6vw;
+}
+
+.leftdata p {
+  margin-top: 5vh;
+  color: rgba(0, 0, 0, 0.771);
+}
+
+.rightdata {
+  height: 100%;
+  width: 45%;
+  /* background-color: rgb(213, 208, 208); */
+  padding-top: 8vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightdata img {
+  align-self: self-end;
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2rem;
+}
+
+.start-btns {
+  margin-top: 3vh;
+}
+
+#explore-btn {
+  margin-left: 1vw;
+  background-color: rgba(0, 0, 0, 0.771);
+}
+
+#explore-btn:hover {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.771);
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  background-color: seashell;
+}
+
+.partners-compnay {
+  height: 20vh;
+  width: 100%;
+  /* background-color: salmon; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1vh;
+}
+.companies {
+  height: 9vh;
+  width: 50%;
+  background-color: rgba(128, 128, 128, 0.207);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company {
+  display: flex;
+  gap: 3px;
+}
+
+.company h3 {
+    padding-right: 4vw;
+}
+
