@@ -120,6 +120,11 @@ a:hover {
   object-position: center;
   border-radius: 2rem;
 }
+.rightdata img:hover img{
+  height: 96%;
+  width: 96%;
+  transition: all ease-in 0.4s;
+}
 
 .start-btns {
   margin-top: 3vh;
@@ -138,10 +143,10 @@ a:hover {
 main {
   min-height: 100vh;
   width: 100%;
-  background-color: seashell;
+  /* background-color: seashell; */
 }
 
-.partners-compnay {
+.partners-company {
   height: 20vh;
   width: 100%;
   /* background-color: salmon; */
@@ -154,7 +159,7 @@ main {
 .companies {
   height: 9vh;
   width: 50%;
-  background-color: rgba(128, 128, 128, 0.207);
+  background-color: rgba(128, 128, 128, 0.109);
   border-radius: 7px;
   display: flex;
   align-items: center;
@@ -170,3 +175,101 @@ main {
     padding-right: 4vw;
 }
 
+/* feature section */
+
+.feature-section {
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 2vh;
+  background-color: rgba(128, 128, 128, 0.05);
+  padding-top: 1.3vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+.title {
+  height: 15vh;
+  width: 100%;
+  /* background-color: purple; */
+}
+
+.title p {
+  color: rgba(0, 0, 0, 0.641);
+  margin-top: 1vh;
+  font-size: 14px;
+}
+
+.feature-container {
+  min-height: 80vh;
+  width: 100%;
+  /* background-color: rgb(223, 80, 104); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features {
+  min-height: 80vh;
+  width: 56%;
+  /* background-color: #faa338; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3vh;
+}
+
+.feature {
+  height: 27vh;
+  width: 48%;
+  /* background-color: #4A90E2; */
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature h3 {
+  color: white;
+  font-weight: 800;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.feature p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.83);
+  font-weight: 100;
+}
+
+.feature:nth-child(1) {
+  background-color: #4A90E2;
+}
+.feature:nth-child(2) {
+  background-color: #FF6289;
+}
+.feature:nth-child(3) {
+  background-color: #FCBF58;
+}
+.feature:nth-child(4) {
+  background-color: #44BFC3;
+}
+.feature:nth-child(5) {
+  background-color: #237b3f;
+}
+.feature:nth-child(6) {
+  background-color: #7D78B1;
+}
+
+#feature-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

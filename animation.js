@@ -22,3 +22,14 @@ tl.from(".leftdata .start-btn", {
     duration: 0.3,
     stagger: 0.2
 })
+
+gsap.from(".partners-company", {
+    scale: 0.2,
+    opacity: 0,
+    duration: 0.7,
+    scrollTrigger: {
+        trigger: ".partners-company",
+        start: "top 93%",
+        end: "top 97%",
+    }
+})
