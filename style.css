@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
   width: 100vw;
   padding: 0vw 9vw;
-  /* background-color: pink; */
+  background-color: rgba(126, 96, 181, 0.122);
 }
 
 header {
@@ -54,6 +54,14 @@ a:hover {
   transition: all 0.2s ease-in;
 }
 
+.login-btn a {
+  text-decoration: none;
+  color: #eee;
+}
+.login-btn a:hover {
+  color: #3874fa;
+} 
+
 .login-btn,
 .start-btn {
   padding: 0.5vw 2vw;
@@ -75,7 +83,6 @@ a:hover {
 .hero {
   height: calc(100vh - 13vh);
   display: flex;
-  /* background-color: pink; */
 }
 
 .leftdata {
@@ -183,6 +190,7 @@ main {
   margin-top: 2vh;
   background-color: rgba(128, 128, 128, 0.05);
   padding-top: 1.3vh;
+  padding-bottom: 2vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -272,4 +280,133 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.feedback {
+  min-height: 35vh;
+  width: 100%;
+  margin-top: 9vh;
+}
+
+.head h1 {
+  text-align: center;
+  padding-top: 1vh;
+}
+
+.feedback-cards {
+  min-height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2vh;
+}
+
+.card {
+  height: 90%;
+  width: 30%;
+  border: 1px solid rgba(128, 128, 128, 0.357);
+  text-align: center;
+  padding-top: 1vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  border-radius: 1rem;
+}
+
+.card p {
+  color: rgba(0, 0, 0, 0.631);
+  font-size: 14px;
+  padding-bottom: 2vh;
+}
+.card h3 {
+  color: #6366f1;
+  font-size: 1.2rem;
+  padding-top: 1vh;
+}
+
+.card-icon {
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: whitesmoke;
+}
+
+.card-icon img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* footer */
+
+footer {
+  margin-top: 12vh;
+  min-height: 40vh;
+  width: 100%;
+  display: flex;
+}
+
+.socials {
+  height: 38vh;
+  width: 35%;
+ display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.foot-logo {
+ font-size: 1.1rem;
+ display: flex;
+ align-items: center;
+ gap: 3px;
+}
+
+.socials p {
+  color: rgba(0, 0, 0, 0.631);
+  margin-bottom: 2vh;
+}
+
+.social img {
+  margin-right: 9px;
+}
+.social a {
+  text-decoration: none;
+}
+
+.tab-links {
+  height: 38vh;
+  width: 65%;
+  display: flex;
+  gap: 6vw;
+}
+
+.tab-links nav{
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-links nav ul{
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.maker {
+  height: 4vh;
+  width: 100%;
+  background-color: black;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maker p{
+  font-weight: 100;
+  color: white;
 }
